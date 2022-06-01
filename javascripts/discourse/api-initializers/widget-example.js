@@ -28,7 +28,7 @@ export default {
           if (!this.hideBottomItems()) {
             const tab = I18n.t(this.attrs.titleKey).toLowerCase();
 
-            I18n.translations.en.js.custom_translation = I18n.t(
+            I18n.translations[I18n.locale].js.custom_translation = I18n.t(
               themePrefix("quick_access_more")
             );
 
