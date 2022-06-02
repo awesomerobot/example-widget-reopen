@@ -1,4 +1,4 @@
-// this reopens the widget to add a label to the "view_all" link
+// this uses the widget setting to add a label to the "view_all" link
 
 import { withPluginApi } from "discourse/lib/plugin-api";
 import I18n from "I18n";
